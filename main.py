@@ -18,7 +18,7 @@ for index, row in df.iterrows():
     for y in range(20, 298, 10):
         pdf.line(10, y, 200, y)
 
-    # Set the footer
+    # Set the footer                                                                     
     pdf.ln(265)
     pdf.set_font(family="Times", style="I", size=8)
     pdf.set_text_color(180, 80, 180)
